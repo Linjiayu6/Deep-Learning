@@ -57,18 +57,24 @@ Activation Function:
 **1. 构建深层神经网络**
 [W4] Building your Deep Neural Network_Step by Step.ipynb
 
-```
-Tags: 
+**跑数据有点问题**
 
-Layers:
+```
+Tags: 深度神经网络、DNN的前向和反向传播、参数和超参数等
+
+Layers: ....
 
 Activation Function:
+- sigmoid
+- tanh
+- ReLU
 ```
 
 [R: Building your Deep Neural Network: Step by Step](https://github.com/Kulbear/deep-learning-coursera/blob/master/Neural%20Networks%20and%20Deep%20Learning/Building%20your%20Deep%20Neural%20Network%20-%20Step%20by%20Step.ipynb)
 
 
 **2. 图像分类应用**
+[W4] Deep Neural Network for Image Classification - Application.ipynb
 
 ```
 Tags: 
