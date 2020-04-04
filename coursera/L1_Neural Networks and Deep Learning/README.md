@@ -5,16 +5,17 @@
 
 ### Week2: Logistic Regression
 **Practice:**
-1. [2.13] Vectorizing Logistic Regression
-2. [2.15] Broadcasting in Python.ipynb
-3. [2.16] python _ numpy.ipynb
+- 2.13__Vectorizing Logistic Regression.ipynb
+- 2.13__Vectorizing Logistic Regression.ipynb
+- 2.16__python _ numpy.ipynb
 
 **Assignment:**
 **1. 逻辑回归练习 (非课程)**
-[W2-self] Logistic Regression demo.ipynb
+- W2__Logistic Regression demo.ipynb
 
 **2. 逻辑回归**
-[W2] Logistic Regression with a Neural Network mindset.ipynb
+- W2__Logistic Regression with a Neural Network mindset.ipynb
+
 ```
 Tags:
 logistic回归、损失函数、梯度下降、计算向量化、代价函数等
@@ -34,7 +35,8 @@ Activation Function:
 **Assignment:**
 
 **1. 浅层神经网络实现平面数据分类**
-[W3] Planar data classification with one hidden layer.ipynb
+
+- W3__Planar data classification with one hidden layer.ipynb
 
 ```
 Tags: 神经网络、激活函数、梯度下降法、反向传播、随机初始化
@@ -55,33 +57,23 @@ Activation Function:
 
 **Assignment:**
 **1. 构建深层神经网络**
-[W4] Building your Deep Neural Network_Step by Step.ipynb
 
-**跑数据有点问题**
+**TODO: 跑数据有点问题**
+
+- W4__Building your Deep Neural Network_Step by Step.ipynb
 
 ```
 Tags: 深度神经网络、DNN的前向和反向传播、参数和超参数等
-
-Layers: ....
-
-Activation Function:
-- sigmoid
-- tanh
-- ReLU
 ```
 
 [R: Building your Deep Neural Network: Step by Step](https://github.com/Kulbear/deep-learning-coursera/blob/master/Neural%20Networks%20and%20Deep%20Learning/Building%20your%20Deep%20Neural%20Network%20-%20Step%20by%20Step.ipynb)
 
 
 **2. 图像分类应用**
-[W4] Deep Neural Network for Image Classification - Application.ipynb
 
-```
-Tags: 
+- W5__2-Layer__Deep Neural Network for Image Classification - Application.ipynb
 
-Layers:
+- W5__N-Layer__Deep Neural Network for Image Classification - Application.ipynb
 
-Activation Function:
-```
 
 [R: Deep Neural Network for Image Classification: Application](https://github.com/Kulbear/deep-learning-coursera/blob/master/Neural%20Networks%20and%20Deep%20Learning/Deep%20Neural%20Network%20-%20Application.ipynb)
