@@ -59,7 +59,6 @@ Activation Function:
 **1. 构建深层神经网络**
 
 **TODO: 跑数据有点问题**
-
 - W4__Building your Deep Neural Network_Step by Step.ipynb
 
 ```
@@ -77,3 +76,12 @@ Tags: 深度神经网络、DNN的前向和反向传播、参数和超参数等
 
 
 [R: Deep Neural Network for Image Classification: Application](https://github.com/Kulbear/deep-learning-coursera/blob/master/Neural%20Networks%20and%20Deep%20Learning/Deep%20Neural%20Network%20-%20Application.ipynb)
+
+
+```html
+疑问:
+
+1. 为什么增加层数, 会陷入局部最优, 梯度不会继续下降, 一直固定在0.65左右?
+
+2. 调整parameters 依据? 有点碰运气的感觉?
+```
