@@ -1,6 +1,12 @@
 
-# Neural Networks and Deep Learning
+# Course 1: Neural Networks and Deep Learning
 
+```
+Week 2 - Logistic Regression with a Neural Network mindset
+Week 3 - Planar data classification with one hidden layer
+Week 4 - Building your Deep Neural Network: Step by Step
+Week 4 - Deep Neural Network for Image Classification: Application
+```
 ***
 
 ### Week2: Logistic Regression
