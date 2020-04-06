@@ -26,7 +26,7 @@ Week 3 - TensorFlow Tutorial
 [R: Initialization](https://github.com/Kulbear/deep-learning-coursera/blob/master/Improving%20Deep%20Neural%20Networks%20Hyperparameter%20tuning%2C%20Regularization%20and%20Optimization/Initialization.ipynb)
 
 ## 1.2 He Initialization说明
-[W1__L1_Initialization.md]()
+[W1__L1_Initialization.md](https://github.com/Linjiayu6/Deep-Learning/blob/master/coursera/L2_Improving%20Deep%20Neural%20Networks/W1__L1_Initialization.md)
 
 ## 1.3 疑问
 ```python
@@ -53,7 +53,7 @@ Week 3 - TensorFlow Tutorial
 [R: Regularization](https://github.com/Kulbear/deep-learning-coursera/blob/master/Improving%20Deep%20Neural%20Networks%20Hyperparameter%20tuning%2C%20Regularization%20and%20Optimization/Regularization.ipynb)
 
 ## 2.2 L2 & Dropout 说明
-[W1__L2_Regularization.md]()
+[W1__L2_Regularization.md](https://github.com/Linjiayu6/Deep-Learning/blob/master/coursera/L2_Improving%20Deep%20Neural%20Networks/W1__L2_Regularization.md)
 
 
 ## 2.3 疑问
