@@ -65,3 +65,12 @@ Week 3 - TensorFlow Tutorial
 ***
 
 # Week 1 - L3 Gradient Checking
+## 3.1 Gradient Checking
+- W1__L3_Gradient_Checking.ipynb
+
+```
+TODO: 后面有问题 !!!
+```
+
+***
+# Week 2 - Optimization Methods

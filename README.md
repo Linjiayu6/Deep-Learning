@@ -1,4 +1,4 @@
-# DeepLearning
+# Deep Learning
 [2020] Deep Learning / Coursera
 
 #### [Course1 - Neural Networks and Deep Learning](https://github.com/Linjiayu6/Deep-Learning/tree/master/coursera/L1_Neural%20Networks%20and%20Deep%20Learning)
