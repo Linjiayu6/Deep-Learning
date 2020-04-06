@@ -14,7 +14,7 @@ Week 3 - TensorFlow Tutorial
 # Week 1 - Initialization
 
 ## Initialization
-- W1__Initialization.ipynb
+- W1__L1_Initialization.ipynb
 
 ```python
 # weights & bias 参数初始化的三种创建对NN影响
@@ -56,7 +56,7 @@ def init_parameters_he (self):
 # Week 2 - Regularization
 
 ## Regularization
-- W2__Regularization.ipynb
+- W1__L2_Regularization.ipynb
 
 ```python
 # 有无正则化 三种方式的对比
