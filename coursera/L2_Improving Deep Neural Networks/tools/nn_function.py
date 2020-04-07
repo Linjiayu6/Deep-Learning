@@ -79,3 +79,15 @@ def plot_cost (J_arr, alpha):
     plt.xlabel('iterations (per hundreds)')
     plt.title("Learning rate =" + str(alpha))
     plt.show()
+    
+def predict (X, y, params, text = '精确度'):
+    A = forward_propagation(X, params)
+    A3 = A['A3']
+    m = A3.shape[1]
+    
+    y_predict = np.round(A3)
+    
+    # 精确度预测
+    accuracy = (1 - np.sum(abs(y_predict - y)) / m) * 100
+    print(text)
+    print("===== Accuracy: " + str(accuracy) + '% =====')
