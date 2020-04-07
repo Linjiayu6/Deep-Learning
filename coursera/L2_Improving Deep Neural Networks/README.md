@@ -73,4 +73,12 @@ TODO: 后面有问题 !!!
 ```
 
 ***
+
 # Week 2 - Optimization Methods
+
+## 4.1 Mini Batch Gradient Descent
+- W2__L1_Optimization Methods (Mini-Batch GD).ipynb
+每组数量, 最好是2的次幂, eg: $2^6 = 64$
+
+## 4.2 Momentum & Adam
+- W2__L2_Optimization Methods (Momentum & Adam).ipynb
