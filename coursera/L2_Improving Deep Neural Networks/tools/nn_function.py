@@ -1,7 +1,36 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
+import sklearn
+import sklearn.datasets
+
 from tools.activation_function import sigmoid, sigmoid_derivative, ReLU, ReLU_derivative, tanh, tanh_derivative
+
+
+def load_dataset_moons ():
+    # training set
+    np.random.seed(1)
+    train_X, train_Y = sklearn.datasets.make_moons(n_samples=2000, noise=0.2)
+    # testing set
+    np.random.seed(2)
+    test_X, test_Y = sklearn.datasets.make_circles(n_samples=100, noise=.5)
+    # plot
+    plt.scatter(train_X[:, 0], train_X[:, 1], c=train_Y, s=40, cmap=plt.cm.Spectral);
+    # handle data
+    train_X, test_X = train_X.T, test_X.T
+    train_Y = train_Y.reshape((1, train_Y.shape[0]))
+    test_Y = test_Y.reshape((1, test_Y.shape[0]))
+    return train_X, train_Y, test_X, test_Y
+
+def init_parameters_he (Layers):
+    np.random.seed(0)
+    parameters = {}
+    for i in range(1, len(Layers)):
+        # 缩放因子
+        he = np.sqrt(2. / Layers[i - 1])
+        parameters['W' + str(i)] = np.random.randn(Layers[i - 1], Layers[i]) * he
+        parameters['b' + str(i)] = np.zeros(shape = (Layers[i], 1))
+    return parameters
 
 def forward_propagation (X, params):
     # 3 Layers (X -> A1(relu) -> A2(relu) -> A3(sigmoid))
@@ -28,7 +57,6 @@ def forward_propagation (X, params):
     }
 
     return A
-
 
 def cost_function (A, y):
     A3 = A['A3']
@@ -91,3 +119,29 @@ def predict (X, y, params, text = '精确度'):
     accuracy = (1 - np.sum(abs(y_predict - y)) / m) * 100
     print(text)
     print("===== Accuracy: " + str(accuracy) + '% =====')
+  
+def predict_dec (params, X):
+    A = forward_propagation(X, params)
+    A3 = A['A3']
+    return np.round(A3)
+
+def plot_decision_boundary(model, X, y):
+    axes = plt.gca()
+    axes.set_xlim([-1.5, 2.5])
+    axes.set_ylim([-1, 1.5])
+    
+    # Set min and max values and give it some padding
+    x_min, x_max = X[0, :].min() - 1, X[0, :].max() + 1
+    y_min, y_max = X[1, :].min() - 1, X[1, :].max() + 1
+    h = 0.01
+    # Generate a grid of points with distance h between them
+    xx, yy = np.meshgrid(np.arange(x_min, x_max, h), np.arange(y_min, y_max, h))
+    # Predict the function value for the whole grid
+    Z = model(np.c_[xx.ravel(), yy.ravel()])
+    Z = Z.reshape(xx.shape)
+    # Plot the contour and training examples
+    plt.contourf(xx, yy, Z, cmap=plt.cm.Spectral)
+    plt.ylabel('x2')
+    plt.xlabel('x1')
+    plt.scatter(X[0, :], X[1, :], c=y.ravel(), cmap=plt.cm.Spectral)
+    plt.show()
