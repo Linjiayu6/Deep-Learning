@@ -20,4 +20,7 @@
 #### [Course 4: Convolutional Neural Networks](https://github.com/Linjiayu6/Deep-Learning/tree/master/coursera/L4_Convolutional%20Neural%20Networks)
 1. W1 L1 Convolutional Neural Networks
 2. W2 L1 Convolution Model  Application
-3. 
+3. W3 L1 Keras
+4. W3 L2 Residual Networks
+5. W3 L3 Yolo
+6. W4 L1 Neural Style Transfer
